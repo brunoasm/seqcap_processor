@@ -65,6 +65,8 @@ def phase_bam(sorted_bam_file,sample_output_folder,min_cov,reference):
 	phasing_cmd = [
 		"samtools",
 		"phase",
+		"-D",
+		"100000",
 		"-A",
 		"-F",
 		"-Q",
