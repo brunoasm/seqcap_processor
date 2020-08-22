@@ -4,7 +4,7 @@ This repository is a fork of version 1.1.15 of SECAPR, in which issues #16 and #
 To install this version, follow instructions to [install SECAPR development version](https://htmlpreview.github.io/?https://github.com/AntonelliLab/seqcap_processor/blob/master/docs/documentation/main_doc.html#5.-Install-SECAPR-development-version): first install secapr from Anaconda to obtain dependencies and then update SECAPR only. This can be done with the following commands:
 
 ```
-conda create -n secapr_env secapr=1.1.15
+conda create -n secapr_env secapr=1.1.15 pip
 conda activate secapr_env 
 wget https://github.com/brunoasm/seqcap_processor/archive/v.1.1.15-beta.0.zip
 unzip v.1.1.15-beta.0.zip
