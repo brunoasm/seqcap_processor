@@ -9,7 +9,7 @@ conda activate secapr_env
 wget https://github.com/brunoasm/seqcap_processor/archive/v.1.1.15-beta.0.zip
 unzip v.1.1.15-beta.0.zip
 cd seqcap_processor-v.1.1.15-beta.0/
-python -m pip install -e .
+pip install .
 ```
 
 # <img src="images/secapr_logo.png" width="100"> SEquence CApture PRocessor (SECAPR)
